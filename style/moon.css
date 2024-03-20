@@ -1,0 +1,67 @@
+.moon-wrapper{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(-50%, -50%);
+}
+
+.moon{
+    position: relative;
+    background-color: #6f6d72;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.moon .crater1{
+    position: absolute;
+    top: 25%;
+    right: 20%;
+    width: 20px;
+    height: 20px;
+    background-color: #b4b1b8;
+    border-radius: 50%;
+}
+
+.moon .crater2{
+    position: absolute;
+    top: -2%;
+    left: 20%;
+    width: 20px;
+    height: 20px;
+    background-color: #b4b1b8;
+    border-radius: 50%;
+}
+
+.moon .crater3{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    width: 35px;
+    height: 35px;
+    background-color: #333136;
+    border-radius: 50%;
+}
+
+.moon .crater4{
+    position: absolute;
+    bottom: 0%;
+    right: 5%;
+    width: 37.5px;
+    height: 37.5px;
+    background-color: #333136;
+    border-radius: 50%;
+}
+
+.moon .crater5{
+    position: absolute;
+    bottom: -2%;
+    left: 20%;
+    width: 20px;
+    height: 20px;
+    background-color: #b4b1b8;
+    border-radius: 50%;
+}
