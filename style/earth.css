@@ -1,0 +1,170 @@
+.earth-wrapper{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+.earth{
+    position: relative;
+    background-color: #79bedb;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 13px 10px rgba(121,190,219, 0.3);
+    overflow: hidden;
+}
+
+.earth #europe{
+    position: absolute;
+    top: 27%;
+    left: 70%;
+    width: 80px;
+    height: 80px;
+    background-color: #384e1d;
+    transform: translate(-50%, -50%);
+    clip-path: polygon(23% 16%, 60% 10%, 100% 18%, 96% 52%, 78% 99%, 60% 99%, 52% 69%, 35% 58%, 15% 74%, 1% 45%);
+}
+
+.earth #europe2{
+    position: absolute;
+    top: 35%;
+    left: 80%;
+    width: 50px;
+    height: 50px;
+    background-color: #384e1d;
+    transform: translate(-50%, -50%);
+    clip-path: polygon(68% 19%, 80% 10%, 94% 31%, 99% 58%, 80% 90%, 50% 100%, 52% 68%, 54% 50%, 56% 35%, 66% 28%);
+}
+
+.earth #africa{
+    position: absolute;
+    top: 60%;
+    left: 70%;
+    width: 80px;
+    height: 80px;
+    background-color: #384e1d;
+    transform: translate(-50%, -50%);
+    clip-path: polygon(40% 1%, 59% 13%, 86% 17%, 94% 49%, 78% 81%, 50% 100%, 45% 51%, 17% 51%, 5% 27%, 20% 10%);
+}
+
+
+.earth #north-america{
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    background-color: #384e1d;
+    transform: translate(-50%, -50%);
+    clip-path: polygon(35% 17%, 86% 21%, 97% 48%, 72% 75%, 46% 80%, 53% 100%, 29% 80%, 27% 45%, 6% 20%, 16% 6%);
+}
+
+.earth #south-america{
+    position: absolute;
+    top: 75%;
+    left: 35%;
+    width: 80px;
+    height: 80px;
+    background-color: #384e1d;
+    transform: translate(-50%, -50%);
+    clip-path: polygon(49% 0, 68% 17%, 85% 35%, 74% 49%, 59% 58%, 50% 100%, 31% 65%, 31% 39%, 13% 24%, 26% 0);
+}
+
+@media only screen and (min-width: 720px){
+    .earth-wrapper{
+        width: 250px;
+        height: 250px;
+    }
+
+    .earth #europe{
+        width: 100px;
+        height: 100px;
+    }
+
+    .earth #europe2{
+        width: 60px;
+        height: 60px;
+    }
+
+    .earth #africa{
+        width: 100px;
+        height: 100px;
+    }
+
+    .earth #north-america{
+        width: 100px;
+        height: 100px;
+    }
+
+    .earth #south-america{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media only screen and (min-width: 1080px){
+    .earth-wrapper{
+        width: 300px;
+        height: 300px;
+    }
+
+    .earth #europe{
+        width: 120px;
+        height: 120px;
+    }
+
+    .earth #europe2{
+        width: 70px;
+        height: 70px;
+    }
+
+    .earth #africa{
+        width: 120px;
+        height: 120px;
+    }
+
+    .earth #north-america{
+        width: 120px;
+        height: 120px;
+    }
+
+    .earth #south-america{
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media only screen and (min-width: 1920px){
+    .earth-wrapper{
+        width: 350px;
+        height: 350px;
+    }
+
+    .earth #europe{
+        width: 140px;
+        height: 140px;
+    }
+
+    .earth #europe2{
+        width: 80px;
+        height: 80px;
+    }
+
+    .earth #africa{
+        width: 140px;
+        height: 140px;
+    }
+
+    .earth #north-america{
+        width: 140px;
+        height: 140px;
+    }
+
+    .earth #south-america{
+        width: 140px;
+        height: 140px;
+    }
+}
