@@ -5,6 +5,7 @@
     top: 50%;
     left: 25%;
     transform: translate(-50%, -50%);
+    z-index: 30;
 }
 
 .sun{
@@ -34,29 +35,5 @@
     .ray{
         width: 10px;
         height: 10px;
-    }
-}
-
-@media only screen and (min-width: 1080px){
-    .sun-wrapper{
-        width: 500px;
-        height: 500px;
-    }
-
-    .ray{
-        width: 15px;
-        height: 15px;
-    }
-}
-
-@media only screen and (min-width: 1920px){
-    .sun-wrapper{
-        width: 600px;
-        height: 600px;
-    }
-
-    .ray{
-        width: 20px;
-        height: 20px;
     }
 }

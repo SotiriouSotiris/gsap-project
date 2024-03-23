@@ -33,14 +33,6 @@ function adjustBasedOnWindowSize() {
     if(width < 720 && previousWidth >= 720){
         initialiseSun(30, 10);
     }else if(width > 720 && previousWidth <= 720){
-        initialiseSun(35, 12.5);
-    }else if(width < 1080 && previousWidth >= 1080){
-        initialiseSun(35, 12.5);
-    }else if(width > 1080 && previousWidth <= 1080){
-        initialiseSun(40, 15);
-    }else if(width < 1920 && previousWidth >= 1920){
-        initialiseSun(40, 15);
-    }else if(width > 1920 && previousWidth <= 1920){
-        initialiseSun(45, 17.5);
+        initialiseSun(40, 12.5);
     }
 }

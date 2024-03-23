@@ -3,14 +3,15 @@
     height: 200px;
     position: absolute;
     top: 50%;
-    left: 70%;
+    left: 60%;
     transform: translate(-50%, -50%);
+    z-index: 20;
 }
 
 .earth{
     position: relative;
     background-color: #79bedb;
-    width: 100%;
+    width: 110%;
     height: 100%;
     border-radius: 50%;
     box-shadow: 0px 0px 13px 10px rgba(121,190,219, 0.3);
@@ -73,6 +74,28 @@
     clip-path: polygon(49% 0, 68% 17%, 85% 35%, 74% 49%, 59% 58%, 50% 100%, 31% 65%, 31% 39%, 13% 24%, 26% 0);
 }
 
+.earth #north-pol{
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    width: 100px;
+    height: 30px;
+    background-color: #ffffff;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+.earth #south-pol{
+    position: absolute;
+    bottom: -35px;
+    left: 50%;
+    width: 100px;
+    height: 30px;
+    background-color: #ffffff;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
 @media only screen and (min-width: 720px){
     .earth-wrapper{
         width: 250px;
@@ -102,69 +125,5 @@
     .earth #south-america{
         width: 100px;
         height: 100px;
-    }
-}
-
-@media only screen and (min-width: 1080px){
-    .earth-wrapper{
-        width: 300px;
-        height: 300px;
-    }
-
-    .earth #europe{
-        width: 120px;
-        height: 120px;
-    }
-
-    .earth #europe2{
-        width: 70px;
-        height: 70px;
-    }
-
-    .earth #africa{
-        width: 120px;
-        height: 120px;
-    }
-
-    .earth #north-america{
-        width: 120px;
-        height: 120px;
-    }
-
-    .earth #south-america{
-        width: 120px;
-        height: 120px;
-    }
-}
-
-@media only screen and (min-width: 1920px){
-    .earth-wrapper{
-        width: 350px;
-        height: 350px;
-    }
-
-    .earth #europe{
-        width: 140px;
-        height: 140px;
-    }
-
-    .earth #europe2{
-        width: 80px;
-        height: 80px;
-    }
-
-    .earth #africa{
-        width: 140px;
-        height: 140px;
-    }
-
-    .earth #north-america{
-        width: 140px;
-        height: 140px;
-    }
-
-    .earth #south-america{
-        width: 140px;
-        height: 140px;
     }
 }
