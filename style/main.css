@@ -2,15 +2,26 @@
 body{
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
+
 .main{
+    height: 200vh;
+    width: 100vw;
+}
+
+.first-scene{
     background-color: black;
     width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
 
 .planets{
@@ -18,4 +29,13 @@ body{
     width: 100%;
     max-width: 1080px;
     position: relative;
+}
+
+.second-scene{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

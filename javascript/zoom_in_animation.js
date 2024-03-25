@@ -1,24 +1,35 @@
-// Ensure GSAP and ScrollTrigger are loaded before using them
 gsap.registerPlugin(ScrollTrigger);
 
-// Wait for the DOM content to be loaded
 document.addEventListener("DOMContentLoaded", function() {
     const tl = gsap.timeline();
+    const tl2 = gsap.timeline();
 
-    // Define the animation to zoom into the earth
-    tl.to(".earth", {
-        scale: 1.5, // Zoom factor
-        duration: 5, // Duration of the zoom animation
-        ease: "power1.inOut" // Easing function
+    tl.to(".planets", {
+        scale: 50,
+        ease: "power1.inOut"
     });
 
-    // Create a ScrollTrigger to control the animation
+    tl2.to('.earth-wrapper', {
+        left: "45%",
+        zIndex: 40,
+        ease: "power1.inOut"
+    });
+
     ScrollTrigger.create({
-        trigger: ".scroll_wrapper",
+        trigger: ".main",
         start: "top top",
         end: "bottom bottom",
-        scrub: true, // Smooth scrolling effect
-        animation: tl, // Assign the timeline to the ScrollTrigger
-        markers: true // Display markers to help debug the ScrollTrigger
+        scrub: true,
+        animation: tl,
+        markers: true
+    });
+
+    ScrollTrigger.create({
+        trigger: ".main",
+        start: "top top",
+        end: "bottom bottom",
+        scrub: true,
+        animation: tl2,
+        markers: true
     });
 });
