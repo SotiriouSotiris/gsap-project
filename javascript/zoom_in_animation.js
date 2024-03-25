@@ -43,6 +43,5 @@ document.addEventListener("DOMContentLoaded", function() {
         end: "bottom bottom",
         scrub: true,
         animation: tl3,
-        markers: true
     });
 });

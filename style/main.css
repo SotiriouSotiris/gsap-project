@@ -39,6 +39,6 @@ body{
     position: absolute;
     top: 100vh;
     left: 0;
-    opacity: 0;
-    background-color: white;
+    opacity: 1;
+    background: linear-gradient(#0072A0, 10%, #00ABF0, #19BDFF);
 }

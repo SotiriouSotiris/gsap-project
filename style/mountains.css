@@ -1,0 +1,68 @@
+.mountains{
+    width: 100vw;
+    height: 100vh;
+    z-index: 110;
+    position: relative;
+}
+
+.mountain{
+    position: absolute;
+    bottom: 0;
+    clip-path: polygon(50% 60%, 0% 100%, 100% 100%);
+}
+
+#mountain1{
+    width: 30%;
+    left: 0;
+    height: 100%;
+    background-color: #907A48;
+    z-index: 113;
+}
+
+#mountain2{
+    width: 40%;
+    left: 20%;
+    height: 80%;
+    background-color: #3B2E1E;
+    z-index: 112;
+}
+
+#mountain3{
+    width: 30%;
+    left: 60%;
+    height: 90%;
+    background-color: #907A48;
+    z-index: 114;
+}
+
+#mountain4{
+    width: 30%;
+    left: 80%;
+    height: 70%;
+    background-color: #3B2E1E;
+    z-index: 115;
+}
+
+#mountain5{
+    width: 30%;
+    left: 15%;
+    height: 50%;
+    background-color: #4B6B3C;
+    z-index: 116;
+}
+
+#mountain6{
+    width: 20%;
+    left: 50%;
+    height: 40%;
+    background-color: #3B2E1E;
+    z-index: 111;
+}
+
+#mountain7{
+    width: 10%;
+    left: 85%;
+    height: 20%;
+    background-color: #4B6B3C;
+    z-index: 117;
+}
