@@ -39,6 +39,15 @@ body{
     position: absolute;
     top: 100vh;
     left: 0;
-    opacity: 1;
+    opacity: 0;
     background: linear-gradient(#0072A0, 10%, #00ABF0, #19BDFF);
+}
+
+.second-scene-wrapper{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1080px;
+    position: relative;
+    display: flex;
+    justify-content: center;
 }

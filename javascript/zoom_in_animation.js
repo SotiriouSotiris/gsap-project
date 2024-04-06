@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     ScrollTrigger.create({
         trigger: ".second-scene",
-        start: "top 20%",
+        start: "top 15%",
         end: "bottom bottom",
         scrub: true,
         animation: tl3,
