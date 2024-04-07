@@ -202,3 +202,24 @@
     top: 15px;
     left: 90px;
 }
+
+.cloud_animation1{
+    animation: cloud_animation 10s infinite;
+}
+
+.cloud_animation2{
+    animation: cloud_animation 15s infinite;
+}
+
+.cloud_animation3{
+    animation: cloud_animation 17.5s infinite;
+}
+
+/* animation to move left and right */
+@keyframes cloud_animation {
+    0% {transform: translateX(0px);}
+    25% {transform: translateX(-50px);}
+    50% {transform: translateX(0px);}
+    75% {transform: translateX(50px);}
+    100% {transform: translateX(0px);}
+}
